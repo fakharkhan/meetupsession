@@ -71,7 +71,7 @@ class RegisterController extends Controller
         ]);
 
         $user->notify(new WelcomeEmail($user));
-        
+
         return $user;
     }
 }
