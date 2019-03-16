@@ -23,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+      //  dump('i will be displayed in dump server, if it is running');
+
         return view('home');
     }
 }
